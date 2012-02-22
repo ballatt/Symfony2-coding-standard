@@ -57,8 +57,10 @@
         <exclude name="Generic.Files.LineLength"/>
 
         <!-- do not check class/function comments - decision by NZZ -->
+        <exclude name="Symfony2.Classes.MultipleClassesOneFile.Missing"/>
         <exclude name="Symfony2.Commenting.ClassComment.Missing"/>
         <exclude name="Symfony2.Commenting.FunctionComment.Missing"/>
+        <exclude name="Symfony2.Formatting.BlankLineBeforeReturn.Missing"/>
     </rule>
 
     <!-- Don't enforce Zend's private member underscores -->
